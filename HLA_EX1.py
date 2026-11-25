@@ -1,5 +1,7 @@
 from HybridLearningAutomata import *
 import matplotlib.pyplot as plt
+import os
+os.makedirs("Hybrid Results", exist_ok=True)  # the figures are saved here
 HLA = HybridLearningAutomata(2, 1, 0.1, 0, 1)
 HLA4 = HybridLearningAutomata(2, 4, 0.1, 0, 1)
 HLA6 = HybridLearningAutomata(2, 50, 0.1, 0, 1)
